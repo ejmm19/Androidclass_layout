@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.apps.ericjsmartnez.layoutnew.MainActivity">
+
+    <TextView
+    android:layout_width="wrap_content"
+        android:layout_weight="1"
+    android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:textAppearance="?android:textAppearanceLarge"
+    android:text="Conectar"
+    android:id="@+id/textView"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:ems="10"
+        android:hint="Introduzca su Usuario"
+        android:id="@+id/editText" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:inputType="textPassword"
+        android:hint="Introduzca contraseña"
+        android:ems="12"
+        android:id="@+id/editText2" />
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <Button
+        android:text="C1"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        />
+    <Button
+        android:text="C2"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"
+        />
+    <Button
+        android:text="C3"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:id="@+id/button3"
+        android:onClick="onClick"
+        />
+    <Button
+        android:text="Eti"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:id="@+id/button4"
+        />
+    <Button
+        android:text="Ct"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:id="@+id/button5"
+        />
+</LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:text="Olvidaste Contraseña"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="#0e8aee"
+        android:layout_gravity="center"
+        android:id="@+id/textView2" />
+
+</LinearLayout>
